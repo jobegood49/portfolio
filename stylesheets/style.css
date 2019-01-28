@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: column-reverse
+}
+
+main {
+  text-align: center
+}
+
+
+main > button {
+  background-color: white;
+  font-size: 1rem;
+  padding: 20px 40px;
+  border-radius: 5px;
+  color: blue;
+  font-weight: bold;
+  margin: 20px 0
+}
+
+nav {
+  width: 100vw;
+  height: 8vh;
+  background: white;
+  display:flex;
+  padding: 10px 0px 1px 30px
+}
+
+nav > img {
+  width: 120px
+}
+
+.child-image {
+  padding: 20px;
+}
+
+.child-image > img {
+  max-height: 300px;
+  width: auto
+}
+
+.child-content {
+  padding: 25px;
+}
+
+.child-content > p {
+  font-size: 1.3rem;
+  line-height: 1.8rem
+}
+.child-content > h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 3.5rem;
+}
+
+.child-content > button {
+  background-color:  #4a39ac;
+  font-size: 1rem;
+  padding: 15px;
+  border-radius: 5px;
+  color: white;
+  width: 350px
+
+}
+
+.sign-in {
+  text-align: center;
+}
+
+.sign-in > p {
+  font-size: 1.2rem
+}
+
+.sign-in-button {
+  height: 40px;
+  background-color: blue;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
+  width: 150px
+
+}
+
+/*=====Parter-Logo=======*/
+
+.partner-logo {
+  width: 100vw;
+  height: 20vh;
+  text-align: center;
+  background: white;
+  padding-top:10px;
+  margin:2px
+}
+
+.partner-logo > img {
+  width: 200px
+}
+
+/*=====Footer=======*/
+
+.footer-image {
+  width: 80px;
+  margin: 10px 10px;
+  background: white;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap
+}
+
+li:first-child {
+  font-size: 1.2rem;
+}
+
+ul{
+list-style-type: none;
+}
+
+
+
+
+
