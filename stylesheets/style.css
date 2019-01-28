@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -27,6 +28,20 @@ nav {
   padding: 10px 0px 1px 30px;
 }
 
+h1 {
+  font-size: 20px;
+}
+
+.logo {
+  height: 100px;
+}
+
+@media (max-width: 600px) {
+  .logo {
+    height: 50px;
+  }
+}
+
 .child-image {
   padding: 20px;
 }
@@ -46,7 +61,7 @@ nav {
 }
 .child-content > h1 {
   font-family: "Times New Roman", Times, serif;
-  font-size: 3.5rem;
+  font-size: 3rem;
 }
 
 .child-content > button {
